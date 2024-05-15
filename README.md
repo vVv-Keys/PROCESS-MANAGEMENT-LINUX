@@ -80,3 +80,5 @@ Integration with Monitoring Tools: Integrate the script with existing monitoring
 
 # Contributions
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
+
+Will  also make a version for windows once this is finished..  Then just a random version off some kind of framework of KDE sorts and see if we can get it to produce some kind of weird results LOL - stay tuned!
