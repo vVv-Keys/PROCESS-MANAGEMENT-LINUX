@@ -1,4 +1,4 @@
-# Process Management Script
+#LINUX BASH Process Management Script
 
 ```
 ██ ▄█▀▓█████▓██   ██▓  ██████ 
