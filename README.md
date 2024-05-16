@@ -12,73 +12,60 @@
 ░  ░      ░  ░░ ░           ░  
               ░ ░ 
 ```
-
+# Linux Process Management Script
 
 This script provides a set of tools for managing and monitoring processes on a Linux system. It allows users to perform various actions such as listing processes, viewing process details, monitoring resource usage, checking process dependencies, restarting processes, adjusting process priorities, and more.
 
-## Features
-```
-- **List Processes**: View a list of running processes with their PIDs and names.
-- **View Process Details**: Display detailed information about a specific process, including its PID, user, CPU usage, memory usage, and name.
-- **Monitor Resource Usage**: Continuously monitor the CPU and memory usage of a specific process and receive notifications when usage exceeds specified thresholds.
-- **Check Process Dependencies**: Verify if any dependencies required by a process are missing or not running.
-- **Restart Process**: Terminate and restart a specific process.
-- **Adjust Process Priority**: Change the priority of a process to adjust its CPU scheduling priority.
-- **Interactive Mode**: Enter an interactive mode to perform multiple actions without restarting the script for each action.
-```
+## Features:
 
-## Installation
+1. **List Processes**: Displays a list of running processes along with their PIDs and names.
 
-1. Clone the repository:
+2. **View Process Details**: Allows viewing detailed information about a specific process.
 
-bash
-git clone https://github.com/your-username/process-management-script.git
+3. **Filter Processes**: Enables filtering processes based on criteria such as name, PID, or owner.
 
-2. Navigate to the script directory:
-cd process-management-script
+4. **Check Process Dependencies**: Checks dependencies for a given process.
 
-3. Run the script:
-```./main.sh [action] [pid]```
+5. **Monitor Process Resources**: Monitors CPU and memory usage of a specified process and sends notifications if thresholds are exceeded.
 
-```Replace [action] with one of the available actions (e.g., list, details, monitor) and [pid] with the PID of the target process (if required).```
+6. **Log Process Activity**: Logs CPU and memory usage of a process to a file.
 
-Step 4: Perform Actions
-Choose an action from the list provided, such as:
-- list: View a list of running processes.
-- details: View detailed information about a specific process.
-- monitor: Monitor the resource usage of a specific process.
-- dependencies: Check if any dependencies required by a process are missing.
-- restart: Restart a specific process.
-- priority: Adjust the priority of a process.
-- exit: Exit the interactive mode.
+7. **Restart Process**: Terminates and restarts a specified process.
 
-5. Provide PID (if required)
+8. **Send Notification**: Sends a notification message.
 
-For actions that require a PID (Process ID), such as details, monitor, dependencies, restart, and priority, provide the PID of the target process when prompted.
+9. **Adjust Process Priority**: Modifies the priority of a process.
 
+10. **Interactive Mode**: Provides an interactive menu for easy navigation of available actions.
 
-6: Configuration
-The script supports configuration via a config.conf file. You can customize settings such as CPU and memory usage thresholds in this file.
-```If needed, you can customize settings such as CPU and memory usage thresholds in the config.conf file.```
+## Usage:
+
+- Run the script without any arguments to enter interactive mode.
+- Specify action and optional PID as command-line arguments for direct execution.
+
+### Available Actions:
+
+- list: List Processes
+- details: View Process Details
+- dependencies: Check Process Dependencies
+- monitor: Monitor Process Resources
+- log: Log Process Activity
+- restart: Restart Process
+- priority: Adjust Process Priority
+- exit: Exit
+
+## Notes:
+
+- Make sure to configure thresholds and other settings in the configuration file (config.conf).
+- Error handling is in place to guide users in case of invalid input or unavailable features.
 
 
-Step 7: Explore Additional Features
+# Explore Additional Features
 Feel free to explore additional features and functionalities provided by the script, such as error handling, process grouping, resource usage trends, and more.
 
-Step 8: Contribute (Optional)
+# Contribute (Optional)
 If you have ideas, suggestions, or improvements, consider contributing to the project by opening an issue or submitting a pull request on GitHub.
 
-# Future Enhancements
-
-```
-Error Handling: Implement more robust error handling to gracefully handle unexpected errors.
-Process Grouping: Allow users to group related processes together for easier management.
-Resource Usage Trends: Provide graphical visualization or trend analysis of process resource usage over time.
-Remote Process Management: Extend the script to support managing processes on remote systems.
-Integration with Monitoring Tools: Integrate the script with existing monitoring tools or frameworks.
-```
-
-# Contributions
+## Contributions
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
 
-Will  also make a version for windows once this is finished..  Then just a random version off some kind of framework of KDE sorts and see if we can get it to produce some kind of weird results LOL - stay tuned!
