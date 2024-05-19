@@ -52,9 +52,6 @@ This script provides a set of tools for managing and monitoring processes on a L
 
 Feel free to explore additional features and functionalities provided by the script, such as error handling, process grouping, resource usage trends, and more.
 
-# Contribute (Optional)
-If you have ideas, suggestions, or improvements, consider contributing to the project by opening an issue or submitting a pull request on GitHub.
-
 ## Contributions
 Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
 
